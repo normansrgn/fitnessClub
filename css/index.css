@@ -254,3 +254,41 @@ main {
     padding: 20px;
     margin-top: 70px;
 }
+
+@media (max-width: 1170px) {
+    .fit_cards {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 962px) {
+    .slider_in_first,.slider_in_second,.slider_in_three {
+        padding-left: 30px;
+    }
+
+    .header_cont {
+        justify-content: space-between;
+    }
+
+    .nav_list {
+        gap: 10px;
+
+    }
+}
+
+@media (max-width: 577px) {
+    .header_cont {
+        gap: 10px;
+        flex-direction: column;
+    }
+
+    .container,
+    .container-fluid,
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+        width: auto;
+    }
+}
