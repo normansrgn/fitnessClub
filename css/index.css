@@ -59,22 +59,32 @@ main {
 }
 
 .nav_item {
-    position: relative; /* Чтобы позиционировать псевдоэлемент относительно элемента списка */
+    position: relative;
+    /* Чтобы позиционировать псевдоэлемент относительно элемента списка */
 }
 
 .nav_item::before {
-    content: ''; /* Добавляем пустое содержимое для псевдоэлемента */
-    position: absolute; /* Абсолютное позиционирование относительно элемента списка */
-    bottom: -4px; /* Отступ снизу */
-    left: 0; /* Расположение слева */
-    width: 0; /* Начальная ширина */
-    height: 1px; /* Толщина линии подчеркивания */
-    background-color: rgb(255, 255, 255); /* Цвет подчеркивания */
-    transition: width 0.3s; /* Анимация ширины */
+    content: '';
+    /* Добавляем пустое содержимое для псевдоэлемента */
+    position: absolute;
+    /* Абсолютное позиционирование относительно элемента списка */
+    bottom: -4px;
+    /* Отступ снизу */
+    left: 0;
+    /* Расположение слева */
+    width: 0;
+    /* Начальная ширина */
+    height: 1px;
+    /* Толщина линии подчеркивания */
+    background-color: rgb(255, 255, 255);
+    /* Цвет подчеркивания */
+    transition: width 0.3s;
+    /* Анимация ширины */
 }
 
 .nav_item:hover::before {
-    width: 100%; /* Растягиваем подчеркивание на всю ширину элемента списка при наведении */
+    width: 100%;
+    /* Растягиваем подчеркивание на всю ширину элемента списка при наведении */
 }
 
 .swiper {
@@ -91,7 +101,7 @@ main {
     flex-direction: column;
     justify-content: center;
     padding-left: 300px;
-    padding-right: 300px;
+    /* padding-right: 300px; */
     height: 500px;
     gap: 10px;
     background-position: center;
@@ -134,7 +144,7 @@ main {
 
 .slide_price {
     font-size: 40px;
-    
+
 }
 
 .slide_btn {
@@ -153,4 +163,94 @@ main {
     background-color: white;
     color: rgb(234, 26, 64);
     transition: 0.1s linear;
+}
+
+.title {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-size: 34px;
+}
+
+.fitnes_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.fitnes_card img {
+    border-radius: 210px;
+}
+
+.fit_card_inf {
+    text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+
+}
+
+.card_title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card_disc {
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.fit_cards {
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.price_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    color: black;
+    /* width: 572.5px; */
+    height: 210px;
+    background: rgb(255, 218, 26);
+    padding: 40px;
+}
+
+.price_card_title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.title_block {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title_disc {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.price_block {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.price_cards {
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer {
+    padding: 20px;
+    margin-top: 70px;
 }
