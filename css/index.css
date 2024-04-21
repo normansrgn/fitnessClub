@@ -77,6 +77,7 @@ main {
     gap: 10px;
     background-position: center;
     background-size: cover;
+    background-size: auto;
     background-image: url(../img/promo_pic/1675934705_gagaru-club-p-sportzal-krasivii-vkontakte-69.jpg);
 }
 
