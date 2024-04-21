@@ -1,0 +1,24 @@
+.form_cont {
+    margin-top: 120px;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title_log {
+    font-size: 31px;
+    font-weight: bold;
+}
+.form {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inplogin {
+    padding: 8px;
+    width: 200px;
+}
