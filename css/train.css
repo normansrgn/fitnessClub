@@ -14,13 +14,17 @@
 
 .tran_title_block {
     font-weight: bold;
-
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .number {
     font-size: 13px;
 
 }
+
+.second_imaa {}
 
 .about_list {
     display: flex;
