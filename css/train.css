@@ -1,0 +1,43 @@
+.traner_Card {
+    width: 276px;
+    background-color: #171D23;
+    
+}
+
+.inf_block {
+    padding: 20px 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tran_title_block {
+    font-weight: bold;
+
+}
+
+.number {
+    font-size: 13px;
+
+}
+
+.about_list {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.traners {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.traner_Card img {
+    width: 100%;
+    border-radius: 10px;
+}
