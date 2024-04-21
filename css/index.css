@@ -48,7 +48,7 @@ main {
 
 .header_cont {
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: space-around;
 }
 
@@ -77,7 +77,7 @@ main {
     gap: 10px;
     background-position: center;
     background-size: cover;
-    background-image: url(../img/promo_pic/__before.jpeg);
+    background-image: url(../img/promo_pic/1675934705_gagaru-club-p-sportzal-krasivii-vkontakte-69.jpg);
 }
 
 .slider_in_second {
@@ -90,7 +90,7 @@ main {
     gap: 10px;
     background-position: center;
     background-size: cover;
-    background-image: url(../img/promo_pic/1675934705_gagaru-club-p-sportzal-krasivii-vkontakte-69.jpg);
+    background-image: url(../img/promo_pic/1675934651_gagaru-club-p-sportzal-krasivii-vkontakte-67.jpeg);
 }
 
 .slider_in_three {
@@ -103,15 +103,18 @@ main {
     gap: 10px;
     background-position: center;
     background-size: cover;
-    background-image: url(../img/promo_pic/1675934651_gagaru-club-p-sportzal-krasivii-vkontakte-67.jpg);
+    background-image: url(../img/promo_pic/__before.jpeg);
 }
 
 .slider_title {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     font-size: 48px;
 }
 
 .slide_price {
     font-size: 40px;
+    
 }
 
 .slide_btn {
