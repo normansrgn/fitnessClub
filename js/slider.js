@@ -4,10 +4,10 @@ const swiper = new Swiper('.swiper', {
     loop: true,
 
      // Autoplay
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
+    autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+    },
   
     // If we need pagination
     pagination: {
